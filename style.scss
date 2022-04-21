@@ -1,0 +1,37 @@
+@import 'colors';
+
+body {
+    background-color: $grey-bgColor;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.cards {
+    display: flex;
+    margin: 2rem auto;
+    background-color: $white-cardColor;
+    justify-content: space-around;
+    width: 75%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 5px #d3d3d3;
+    text-align: center;
+    .box {
+        border-right: 2px solid #d3d3d3;
+        box-shadow: #d3d3d3;
+        padding: 20px;
+    }
+    .price {
+        background-color: #f4f6fc;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+    button {
+        color: #303ca5;
+        border-color: #303ca5;
+        border-radius: 2px;
+        padding: 10px;
+    }
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
